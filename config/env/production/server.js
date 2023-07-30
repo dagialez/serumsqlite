@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   url: env("RENDER_EXTERNAL_URL"),
   dirs: {
-    public: "/data/public"
+    public: "http://serumapi.sra-link.com:1337/uploads"
   },
 });
